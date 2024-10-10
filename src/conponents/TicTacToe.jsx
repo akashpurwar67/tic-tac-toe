@@ -7,7 +7,7 @@ function TicTacToe() {
    <div className="game">
    <div className="status">
     {getStatusMsg()}
-    <button className="reset" onClick={resetGame}>Reset Gamee</button>
+    <button className="reset" onClick={resetGame}>Reset Game</button>
    </div>
    <div className="board">{board.map((b, index) => {
     const isWinningCell = winningInfo && winningInfo.indices.includes(index);
